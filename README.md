@@ -49,3 +49,9 @@ open http://$(docker-machine ip aws01):9090/ebx
 ```
 docker exec -it ebx9 /bin/bash
 ```
+
+## cleanup
+
+```
+docker-machine rm aws01
+```
